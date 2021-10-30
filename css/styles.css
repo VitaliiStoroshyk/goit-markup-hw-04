@@ -30,7 +30,7 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: var(--background-color);
+  background: var(--hero-color);
 }
 
 .container {
@@ -185,6 +185,8 @@ body {
     ),
     url(../images/img-overlay.jpg);
   max-width: 1600px;
+  min-height: 600px;
+  margin: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -242,7 +244,6 @@ body {
 
 .benefits {
   padding-bottom: 0;
-  background-color: var(--background-color);
 }
 
 /* ---------about--------- */
@@ -250,7 +251,7 @@ body {
 .about-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-right: -30px;
 }
 
 .about-item {
@@ -270,10 +271,6 @@ body {
   margin-bottom: 50px;
 }
 
-.about {
-  background-color: var(--background-color);
-}
-
 /*----------- team--------------- */
 
 .team-title {
@@ -288,7 +285,7 @@ body {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-right: -30px;
 }
 
 .team-item {
@@ -326,7 +323,7 @@ body {
 }
 
 .team {
-  background-color: var(--beckground-btn-color);
+  background: var(--beckground-btn-color);
 }
 
 .social-list {
@@ -369,10 +366,6 @@ body {
 }
 
 /*--------regular customers-----*/
-
-.customers {
-  background-color: var(--background-color);
-}
 
 .customers-title {
   font-weight: bold;
